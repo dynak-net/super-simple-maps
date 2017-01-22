@@ -1,0 +1,17 @@
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <base target="_top" \>
+    <script>
+      var param = window.location.search.match(/lang=(..)/);
+      var lang_param = (param?param[1]:'pl');
+    </script>
+  </head>
+  <body>
+    <div id="map" style="width: 100%; height: 100%;"></div>
+    <script src="js/data.js"> </script>
+    <script src="js/map.js"> </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?v=3&key=YOUR_API_KEY&callback=initMap"> </script>
+    <!--script src="js/markerclusterer.js"> </script-->
+  </body>
+</html>
