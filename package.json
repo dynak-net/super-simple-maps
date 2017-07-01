@@ -1,0 +1,22 @@
+{
+  "name": "super-simple-maps",
+  "version": "0.1.0",
+  "description": "To use this project you must obtain a Java Script API key for Google Maps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dynak-net/super-simple-maps.git"
+  },
+  "author": "dynak.net",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dynak-net/super-simple-maps/issues"
+  },
+  "homepage": "https://github.com/dynak-net/super-simple-maps#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
