@@ -45,8 +45,11 @@ function initMap() {
   setMarkers(map);
 }
 
-function setMarkers(map) {
+async function setMarkers(map) {
   var infoWindow = new google.maps.InfoWindow();
+  let response = await fetch('/points');
+  let json = await response.json();
+  console.log(json);
   for (var i = 0; i < myPoints.length; i++) {
     var myPoint = myPoints[i];
     var marker = new google.maps.Marker({
